@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-id="meta-title">SEO Agency</title>
+    <meta name="description" content="Contact Us" data-id="meta-desc">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script src="https://unpkg.com/lucide@latest" defer></script>
+
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+
+    <header id="site-header">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html" class="flex items-center">
+                    <i data-lucide="activity" class="logo-icon"></i>
+                    <span data-id="agency-name">SEO Agency</span>
+                </a>
+            </div>
+            <nav class="nav-links" id="nav-links-container">
+                <!-- Links hydrated here -->
+            </nav>
+            <button class="hamburger" aria-label="Toggle Navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero section text-center" style="min-height: 40vh;">
+            <div class="container">
+                <h1 data-aos="fade-up">Contact Us</h1>
+                <p data-aos="fade-up" data-aos-delay="100">Ready to generate quality traffic? Let's talk.</p>
+            </div>
+        </section>
+
+        <section class="section bg-light">
+            <div class="container">
+                <div class="grid grid-2">
+
+                    <div class="card" data-aos="fade-right">
+                        <h2 id="contact-form-heading">Heading</h2>
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" class="form-control" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" class="form-control" placeholder="Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn flex items-center justify-center">
+                                <i data-lucide="message-circle" class="mr-sm"></i> Send via WhatsApp
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="flex flex-col" style="gap: var(--spacing-md)" data-aos="fade-left">
+                        <div class="card">
+                            <h3>Get in Touch</h3>
+                            <p class="flex items-center mt-sm"><i data-lucide="mail" class="mr-sm text-primary"></i> <a
+                                    href="#" id="contact-email">email</a></p>
+                            <p class="flex items-center mt-sm"><i data-lucide="phone" class="mr-sm text-primary"></i> <a
+                                    href="#" id="contact-phone">phone</a></p>
+                            <p class="flex items-center mt-sm"><i data-lucide="map-pin" class="mr-sm text-primary"></i>
+                                <span id="contact-address">address</span>
+                            </p>
+                        </div>
+                        <div class="card" style="padding:0; overflow:hidden;">
+                            <iframe id="contact-map" src="" width="100%" height="300" style="border:0;"
+                                allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="text-center mb-lg">Frequently Asked Questions</h2>
+                <div style="max-width: 800px; margin: 0 auto;" id="faq-container" data-aos="fade-up">
+                    <!-- FAQs hydrated here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="site-footer">
+        <div class="container">
+            <div class="grid grid-3">
+                <div>
+                    <h3 data-id="footer-agency-name">SEO Agency</h3>
+                    <p data-id="footer-tagline">Tagline</p>
+                </div>
+                <div>
+                    <h3>Contact</h3>
+                    <p>Email: <a href="#" id="footer-email">email</a></p>
+                    <p>Phone: <a href="#" id="footer-phone">phone</a></p>
+                </div>
+                <div>
+                    <h3>Socials</h3>
+                    <ul class="flex" id="footer-social-links">
+                        <!-- Social links hydrated here -->
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom flex justify-between">
+                <p>&copy; <span id="current-year"></span> <span data-id="footer-copyright-name">Agency</span>. All
+                    rights reserved.</p>
+                <div class="flex" id="footer-policy-links">
+                    <!-- Policy links hydrated here -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

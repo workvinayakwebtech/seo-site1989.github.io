@@ -1,9 +1,152 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>SEO Site</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-id="meta-title">SEO Agency</title>
+  <meta name="description" content="SEO Services" data-id="meta-desc">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Libraries via CDN: AOS, Lucide -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+
+  <!-- App Script -->
+  <script src="main.js" defer></script>
 </head>
+
 <body>
-  <h1>My site is live 🚀</h1>
+
+  <!-- Header -->
+  <header id="site-header">
+    <div class="container nav-container">
+      <div class="logo">
+        <a href="index.html" class="flex items-center">
+          <i data-lucide="activity" class="logo-icon"></i>
+          <span data-id="agency-name">SEO Agsncy</span>
+        </a>
+      </div>
+      <nav class="nav-links" id="nav-links-container">
+        <!-- Links hydrated here -->
+      </nav>
+      <button class="hamburger" aria-label="Toggle Navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero section text-center" id="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <h1 data-id="hero-headline" data-aos="fade-up">Headline</h1>
+          <p data-id="hero-subheadline" data-aos="fade-up" data-aos-delay="100">Subheadline</p>
+          <a href="#" target="_blank" class="btn" data-id="hero-cta" id="hero-cta-btn" data-aos="fade-up"
+            data-aos-delay="200">CTA Button</a>
+        </div>
+        <div class="hero-animation mt-md" data-aos="zoom-in" data-aos-delay="300">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="auto" class="hero-svg"
+            aria-label="SEO Growth Chart Animation">
+            <defs>
+              <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="var(--color-primary)" />
+                <stop offset="100%" stop-color="#3b82f6" />
+              </linearGradient>
+            </defs>
+            <!-- Background grid -->
+            <path d="M 50 250 L 350 250" stroke="#e2e8f0" stroke-width="2" />
+            <path d="M 50 50 L 50 250" stroke="#e2e8f0" stroke-width="2" />
+
+            <!-- Target / Goal area -->
+            <circle cx="350" cy="50" r="30" fill="var(--color-primary-light)" opacity="0.5" class="animated-target" />
+            <circle cx="350" cy="50" r="15" fill="var(--color-primary-light)" opacity="0.8"
+              class="animated-target-inner" />
+
+            <!-- Chart line -->
+            <path class="animated-chart-line" d="M 50 250 L 120 180 L 190 210 L 280 120 L 350 50" fill="none"
+              stroke="url(#primaryGrad)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+
+            <!-- Nodes -->
+            <circle class="animated-node node-1" cx="120" cy="180" r="6" fill="#fff" stroke="var(--color-primary)"
+              stroke-width="3" />
+            <circle class="animated-node node-2" cx="190" cy="210" r="6" fill="#fff" stroke="var(--color-primary)"
+              stroke-width="3" />
+            <circle class="animated-node node-3" cx="280" cy="120" r="6" fill="#fff" stroke="var(--color-primary)"
+              stroke-width="3" />
+            <circle class="animated-node node-4" cx="350" cy="50" r="8" fill="var(--color-primary)" />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section section bg-light">
+      <div class="container">
+        <div class="grid grid-3" id="stats-container">
+          <!-- Stats hydrated here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="section">
+      <div class="container">
+        <h2 class="text-center mb-lg">Why Choose Us</h2>
+        <div class="grid grid-3" id="why-us-container">
+          <!-- Why Us cards hydrated here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section bg-light">
+      <div class="container">
+        <h2 class="text-center mb-lg">What Our Clients Say</h2>
+        <div class="grid grid-2" id="testimonials-container">
+          <!-- Testimonials hydrated here -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="site-footer">
+    <div class="container">
+      <div class="grid grid-3">
+        <div>
+          <h3 data-id="footer-agency-name">SEO Agency</h3>
+          <p data-id="footer-tagline">Tagline</p>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <p>Email: <a href="#" id="footer-email">email</a></p>
+          <p>Phone: <a href="#" id="footer-phone">phone</a></p>
+        </div>
+        <div>
+          <h3>Socials</h3>
+          <ul class="flex" id="footer-social-links">
+            <!-- Social links hydrated here -->
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom mt-lg pt-md flex justify-between">
+        <p>&copy; <span id="current-year"></span> <span data-id="footer-copyright-name">Agency</span>. All rights
+          reserved.</p>
+        <div class="flex" id="footer-policy-links">
+          <!-- Policy links hydrated here -->
+        </div>
+      </div>
+    </div>
+  </footer>
+
 </body>
+
 </html>

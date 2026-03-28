@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-id="meta-title">SEO Agency</title>
+    <meta name="description" content="SEO Services" data-id="meta-desc">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script src="https://unpkg.com/lucide@latest" defer></script>
+
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+
+    <header id="site-header">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html" class="flex items-center">
+                    <i data-lucide="activity" class="logo-icon"></i>
+                    <span data-id="agency-name">SEO Agency</span>
+                </a>
+            </div>
+            <nav class="nav-links" id="nav-links-container">
+                <!-- Links hydrated here -->
+            </nav>
+            <button class="hamburger" aria-label="Toggle Navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero section text-center" style="min-height: 50vh;">
+            <div class="container">
+                <h1 data-aos="fade-up">Our Story</h1>
+                <p data-aos="fade-up" data-aos-delay="100">Defying expectations since day one.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="grid grid-2 items-center">
+                    <div data-aos="fade-right">
+                        <h2>Who We Are</h2>
+                        <p id="about-story"></p>
+                    </div>
+                    <div class="grid grid-1" data-aos="fade-left">
+                        <div class="card bg-light">
+                            <h3 class="flex items-center"><i data-lucide="target" class="text-primary mr-sm"></i> Our
+                                Mission</h3>
+                            <p id="about-mission"></p>
+                        </div>
+                        <div class="card bg-light">
+                            <h3 class="flex items-center"><i data-lucide="eye" class="text-primary mr-sm"></i> Our
+                                Vision</h3>
+                            <p id="about-vision"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section bg-light">
+            <div class="container">
+                <h2 class="text-center mb-lg">Meet The Team</h2>
+                <div class="grid grid-3" id="team-container">
+                    <!-- Team cards hydrated here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="site-footer">
+        <div class="container">
+            <div class="grid grid-3">
+                <div>
+                    <h3 data-id="footer-agency-name">SEO Agency</h3>
+                    <p data-id="footer-tagline">Tagline</p>
+                </div>
+                <div>
+                    <h3>Contact</h3>
+                    <p>Email: <a href="#" id="footer-email">email</a></p>
+                    <p>Phone: <a href="#" id="footer-phone">phone</a></p>
+                </div>
+                <div>
+                    <h3>Socials</h3>
+                    <ul class="flex" id="footer-social-links">
+                        <!-- Social links hydrated here -->
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom flex justify-between">
+                <p>&copy; <span id="current-year"></span> <span data-id="footer-copyright-name">Agency</span>. All
+                    rights reserved.</p>
+                <div class="flex" id="footer-policy-links">
+                    <!-- Policy links hydrated here -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,205 @@
+{
+    "agency": {
+        "name": "SEO Agency",
+        "tagline": "Rise Above the Algorithm",
+        "description": "We help businesses defy digital gravity, scaling the search engine ranks through data-driven strategies and innovative SEO solutions.",
+        "logo": "assets/images/logo.svg",
+        "phone": "+917874531931",
+        "email": "vinayakwebtech8@gmail.com",
+        "whatsapp": "917874531931",
+        "address": "Ahmedabad, Gujarat, India"
+    },
+    "nav": [
+        {
+            "name": "Home",
+            "url": "index.html"
+        },
+        {
+            "name": "About",
+            "url": "about.html"
+        },
+        {
+            "name": "Services",
+            "url": "services.html"
+        },
+        {
+            "name": "Contact",
+            "url": "contact.html"
+        }
+    ],
+    "home": {
+        "hero": {
+            "headline": "Defy Digital Gravity",
+            "subheadline": "We launch brands to the top of search rankings. Experience weightless growth with our data-driven SEO strategies.",
+            "cta": "Start Your Ascent"
+        },
+        "stats": [
+            {
+                "number": 150,
+                "suffix": "+",
+                "label": "Happy Clients"
+            },
+            {
+                "number": 10000,
+                "suffix": "+",
+                "label": "Keywords Ranked"
+            },
+            {
+                "number": 10,
+                "suffix": "+",
+                "label": "Years Experience"
+            }
+        ],
+        "why_us": [
+            {
+                "title": "Data-Driven Approach",
+                "description": "Every decision we make is backed by deep analytics and algorithmic research."
+            },
+            {
+                "title": "Transparent Reporting",
+                "description": "No smoke and mirrors. Just clear, understandable growth metrics every month."
+            },
+            {
+                "title": "Sustainable Growth",
+                "description": "We build SEO foundations that withstand algorithm updates and stand the test of time."
+            }
+        ],
+        "testimonials": [
+            {
+                "quote": "The SEO Agency completely transformed our online presence. Our organic traffic tripled in 6 months.",
+                "author": "Priya Sharma",
+                "company": "TechNova India"
+            },
+            {
+                "quote": "The team truly understands how to navigate the complex world of search engines. Outstanding results!",
+                "author": "Rahul Mehta",
+                "company": "Global Exports Ltd."
+            }
+        ]
+    },
+    "about": {
+        "story": "Founded in Ahmedabad with a vision to revolutionize the digital landscape, the SEO Agency began as a small team of passionate search enthusiasts. Today, we are a leading force in helping businesses break free from the noise and achieve measurable, weightless growth.",
+        "mission": "To elevate every brand we partner with, driving transparent, sustainable, and exponential organic growth.",
+        "vision": "To become the most trusted and innovative SEO agency globally, setting new standards for search excellence.",
+        "team": [
+            {
+                "name": "Arjun Patel",
+                "role": "Founder & SEO Strategist",
+                "bio": "With over a decade of experience decoding search algorithms, Arjun leads our strategic vision.",
+                "photo": "assets/images/team-1.jpg"
+            },
+            {
+                "name": "Sneha Desai",
+                "role": "Lead Content Architect",
+                "bio": "Sneha crafts compelling narratives that search engines love and humans engage with.",
+                "photo": "assets/images/team-2.jpg"
+            },
+            {
+                "name": "Rohan Gupta",
+                "role": "Technical SEO Specialist",
+                "bio": "Rohan ensures the structural integrity of every site we optimize, maximizing indexability.",
+                "photo": "assets/images/team-3.jpg"
+            }
+        ]
+    },
+    "services": [
+        {
+            "id": "seo-audit",
+            "title": "Comprehensive SEO Audit",
+            "icon": "line-chart",
+            "short_desc": "Discover the hidden barriers holding your website back from top rankings.",
+            "full_desc": "Our in-depth SEO audit analyzes over 150 data points across your technical infrastructure, on-page content, and backlink profile. We identify critical issues and provide an actionable roadmap for immediate improvement.",
+            "features": [
+                "Technical Health Check",
+                "Site Speed Analysis",
+                "Architecture Review",
+                "Penalty Assessment"
+            ]
+        },
+        {
+            "id": "on-page-seo",
+            "title": "On-Page Optimization",
+            "icon": "zap",
+            "short_desc": "Maximize the relevance and authority of your existing content.",
+            "full_desc": "We fine-tune your website's elements—from meta tags and headers to keyword density and schema markup—ensuring search engines perfectly understand and value your content.",
+            "features": [
+                "Keyword Targeting",
+                "Meta Tag Creation",
+                "Content Optimization",
+                "Schema Implementation"
+            ]
+        },
+        {
+            "id": "link-building",
+            "title": "Authority Link Building",
+            "icon": "link-2",
+            "short_desc": "Build an unshakeable profile of high-quality, relevant backlinks.",
+            "full_desc": "Our white-hat link building strategies earn your site mentions from authoritative domains in your industry. We focus on quality over quantity to build sustainable domain authority.",
+            "features": [
+                "Digital PR",
+                "Guest Posting",
+                "Broken Link Building",
+                "Competitor Link Analysis"
+            ]
+        },
+        {
+            "id": "local-seo",
+            "title": "Local SEO Support",
+            "icon": "map-pin",
+            "short_desc": "Dominate your local market and drive foot traffic to your business.",
+            "full_desc": "We optimize your Google Business Profile and local citations to ensure you capture the 'near me' searches that matter most to your regional growth.",
+            "features": [
+                "GBP Optimization",
+                "Local Citations",
+                "Review Management",
+                "Localized Content strategy"
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "question": "How long does it take to see SEO results?",
+            "answer": "Typically, significant results take 3 to 6 months. SEO is a long-term strategy, and the timeline depends on your website's current state, competition, and the aggressiveness of the campaign."
+        },
+        {
+            "question": "Do you guarantee #1 rankings?",
+            "answer": "No credible SEO agency can guarantee a #1 spot due to the unpredictability of search algorithms. However, we do guarantee a data-driven approach, transparent reporting, and verifiable growth in organic traffic."
+        },
+        {
+            "question": "Are your SEO techniques safe (White Hat)?",
+            "answer": "Absolutely. We strictly adhere to Google's Webmaster Guidelines, using only white-hat strategies to ensure long-term, sustainable growth without the risk of penalties."
+        }
+    ],
+    "contact": {
+        "form_heading": "Got a Question? Let's Connect.",
+        "whatsapp_message": "Hello SEO Agency! I have a question about your services.",
+        "map_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117506.11434381867!2d72.50165586617309!3d23.018596639553655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat%2C%20India!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+    },
+    "footer": {
+        "tagline": "Defying digital gravity, one ranking at a time.",
+        "links": [
+            {
+                "name": "Privacy Policy",
+                "url": "#"
+            },
+            {
+                "name": "Terms of Service",
+                "url": "#"
+            }
+        ],
+        "social": [
+            {
+                "name": "LinkedIn",
+                "url": "#"
+            },
+            {
+                "name": "Twitter",
+                "url": "#"
+            },
+            {
+                "name": "Instagram",
+                "url": "#"
+            }
+        ]
+    }
+}
